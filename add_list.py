@@ -9,10 +9,9 @@ content = input("Введите содержание заметки ")
 created_date = input("Введите дату создания заметки в формате дд-мм-гггг ")
 issue_date = input("Введите дату дедлайна для задачи в формате дд-мм-гггг ")
 
-list_of_titles=[title, under_title1, under_title2]
+list_of_titles=[title, under_title1, under_title2] # Создание списка с заголовками
 
-# Проверка
-
+# Вывод
 print ("Имя пользователя:", username, end=";\n")
 print("Заголовок заметки:", title, end=";\n")
 print("Первый подзаголовок заметки ", under_title1)
@@ -23,4 +22,3 @@ print("Дата создания:", created_date, end=";\n")
 print("Дедлайн:", issue_date, end=".\n")
 
 print(list_of_titles)
-
