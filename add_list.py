@@ -12,13 +12,13 @@ issue_date = input("Введите дату дедлайна для задачи
 list_of_titles=[title, under_title1, under_title2] # Создание списка с заголовками
 
 # Вывод
-print ("Имя пользователя:", username, end=";\n")
-print("Заголовок заметки:", title, end=";\n")
+print ("Имя пользователя: ", username, end=";\n")
+print("Заголовок заметки: ", title, end=";\n")
 print("Первый подзаголовок заметки ", under_title1)
 print("Второй подзаголовок заметки ", under_title2)
-print("Описание заметки:", content, end=";\n")
-print("Статус заметки:", status, end=";\n")
-print("Дата создания:", created_date, end=";\n")
-print("Дедлайн:", issue_date, end=".\n")
+print("Описание заметки: ", content, end=";\n")
+print("Статус заметки: ", status, end=";\n")
+print("Дата создания: ", created_date, end=";\n")
+print("Дедлайн: ", issue_date, end=".\n")
 
 print(list_of_titles)
