@@ -8,9 +8,9 @@ created_date = input("Введите дату создания заметки в
 issue_date = input("Введите дату дедлайна для задачи в формате дд-мм-гггг ")
 
 # Проверка
-# print ("Имя пользователя:", username, end=";\n")
-# print("Заголовок заметки:", title, end=";\n")
-# print("Описание заметки:", content, end=";\n")
-# print("Статус заметки:", status, end=";\n")
-# print("Дата создания:", created_date, end=";\n")
-# print("Дедлайн:", issue_date, end=".\n")
+# print ("Имя пользователя: ", username, end=";\n")
+# print("Заголовок заметки: ", title, end=";\n")
+# print("Описание заметки: ", content, end=";\n")
+# print("Статус заметки: ", status, end=";\n")
+# print("Дата создания: ", created_date, end=";\n")
+# print("Дедлайн: ", issue_date, end=".\n")
