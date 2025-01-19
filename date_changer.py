@@ -10,4 +10,4 @@ print(text[0:6:2]) # Пор
 created_date = "10-11-2024"
 issue_date = "10-12-2024"
 
-print(created_date[0:5], issue_date[0:5], sep="\n")
+print(created_date[0:5], issue_date[0:5], sep="\n") #вывод даты в формате дд-мм
